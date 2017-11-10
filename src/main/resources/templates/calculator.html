@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<header>Look at my Calculator</header>
+<body>
+
+	<form action="/calculate" method="post">
+		<input type="number" step="any" name="firstNumber" value="" required> <select
+			name="function">
+			<option>+</option>
+			<option>-</option>
+			<option>*</option>
+			<option>/</option>
+			<option>^</option>
+		</select> <input type="number" step="any" name="secondNumber" value="" required>
+		<button>submit</button>
+
+	</form>
+	<p>Your result is:{{result}}
+	
+	
+	
+	 </p>
+
+
+
+
+
+
+</body>
+</html>
